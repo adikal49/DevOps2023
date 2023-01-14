@@ -40,3 +40,8 @@ Simply put, a container is a sandboxed process on your machine that is isolated 
 Docker is written in the Go programming language and takes advantage of several features of the Linux kernel to deliver its functionality. Docker uses a technology called namespaces to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
 
 These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
+
+# Dockerfile
+Docker builds images automatically by reading the instructions from a Dockerfile -- a text file that contains all commands, in order, needed to build a given image.
+
+<img width="269" alt="image" src="https://user-images.githubusercontent.com/102741020/212480238-1ea8612f-5769-45c3-8c25-e104009373b8.png">
